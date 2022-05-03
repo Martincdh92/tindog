@@ -106,6 +106,34 @@ h3 {
   text-align: center;
 }
 
+/* Call to action */
+#cta {
+  padding: 3% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-h3 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 4%;
+}
+
+.footer-icons-row {
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  display: inline;
+  padding: 0.5%;
+}
+
 /************* ID SELECTORS *************/
 #title {
   background-color: #ff4c68;
@@ -134,4 +162,17 @@ h3 {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 4%;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 992px) {
+  .landing-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }

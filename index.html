@@ -186,14 +186,28 @@
 
     <!-- Call to Action -->
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button">
+        <i class="fa-brands fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button">
+        <i class="fab fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <div class="footer-icons-row">
+        <div class="footer-icon"><i class="fa-brands fa-twitter"></i></div>
+        <div class="footer-icon"><i class="fa-brands fa-facebook"></i></div>
+        <div class="footer-icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="footer-icon"><i class="fa fa-envelope"></i></div>
+      </div>
+      <p>© <span id="year"></span> Copyright TinDog</p>
     </footer>
+
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
