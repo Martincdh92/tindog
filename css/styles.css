@@ -199,4 +199,16 @@ em {
   .footer-icon {
     font-size: 1.5rem;
   }
+
+  .testimonial-img {
+    width: 20%;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 2rem;
+  }
 }
