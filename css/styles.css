@@ -1,25 +1,16 @@
 /************* ELEMENT SELECTORS *************/
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -28,15 +19,15 @@ em {
 }
 
 /************* CLASS SELECTORS *************/
-.container-fluid {
-  padding: 3% 15% 7%;
+/* Headings */
+.title-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-.landing-img {
-  position: absolute;
-  -ms-transform: rotate(25deg);
-  transform: rotate(25deg);
-  right: 25%;
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Nav bar */
@@ -60,12 +51,38 @@ em {
   font-weight: 400;
 }
 
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.landing-img {
+  position: absolute;
+  -ms-transform: rotate(25deg);
+  transform: rotate(25deg);
+  right: 25%;
+}
+
 /* Download Buttons */
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-/* Features icons */
+/* Features section */
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-icon {
   color: #ef8172;
   margin-bottom: 1rem;
@@ -80,6 +97,11 @@ em {
   width: 10%;
   border-radius: 50%;
   margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .carousel-item {
@@ -108,25 +130,29 @@ em {
 
 .pricing-column {
   padding: 3% 2%;
-  text-align: center;
+}
+
+.price-title {
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Call to action */
 #cta {
   padding: 3% 15%;
-  background-color: #ff4c68;
-  text-align: center;
 }
 
 .cta-h3 {
-  color: #fff;
   font-size: 3rem;
 }
 
 /* Footer */
 #footer {
   background-color: #fff;
-  text-align: center;
   padding: 4%;
 }
 
@@ -141,14 +167,11 @@ em {
 
 /************* ID SELECTORS *************/
 #title {
-  background-color: #ff4c68;
-  color: white;
+  text-align: left;
 }
 
 #features {
   position: relative;
-  background-color: #fff;
-  text-align: center;
   padding: 7% 15%;
 }
 
@@ -158,14 +181,11 @@ em {
 }
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 4%;
 }
 
